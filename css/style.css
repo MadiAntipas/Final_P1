@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin-left: : 5px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+}
+
+a{
+	color: #e9ecde;
+}
+
+a:hover{
+	color: #66aeaa;
+}
+
+img{
+	width: 80%;
+	height: auto;
+	align-content: center;
+}
+
+p{
+text-align: left;
+}
+
+header{
+	background-color: #ff7044;
+	color: #e9ecde;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+section {
+	max-width: auto;
+	margin-left: 160px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+}
+
+/* The sidebar menu  sourced from https://www.w3schools.com/howto/howto_js_sidenav.asp */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1a0900;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #e9ecde;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	background-color: #66aeaa;
+  color: #e9ecde;
+}
+
+/* Style page content */
+.main {
+	font-size: 28px;
+  padding: 0px 10px;
+}
